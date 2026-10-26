@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="form-container">
+    <div class="form-header">
+        <i class="fa-solid fa-user" style="font-size:40px"></i>
+        <h2>Create Account</h2>
+        <p>Join us today! Fill in the details to get started.</p>
+    </div>
+
+    <form class="register-form">
+        <div class="input-group">
+            <label>Full Name</label>
+            <div class="input-field">
+                <span class="icon-box"><i class="fa-solid fa-user"></i></span>
+                <input type="text" placeholder="Enter your full name">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Email Address</label>
+            <div class="input-field">
+                <span class="icon-box"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" placeholder="Enter your email">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <div class="input-field">
+                <span class="icon-box"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" placeholder="Create a password">
+                <i class="fa-solid fa-eye eye"></i>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Confirm Password</label>
+            <div class="input-field">
+                <span class="icon-box"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" placeholder="Confirm your password">
+                <i class="fa-solid fa-eye eye"></i>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Gender</label>
+            <div class="gender-group">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Others</label>
+            </div>
+        </div>
+
+        <label class="terms">
+            <input type="checkbox">
+            <span>I agree to the <a href="#">terms &amp; conditions</a> and <a href="#">privacy policy</a></span>
+        </label>
+
+        <button type="submit" class="register-btn">Sign Up</button>
+    </form>
+
+    <p class="login-text">Already have an account? <a href="#">Login</a></p>
+</div>
+</body>
+</html>
